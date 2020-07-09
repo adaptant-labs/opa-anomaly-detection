@@ -1,0 +1,233 @@
+[
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "4ca636c1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/bob"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:00:00.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "4ca123c1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/karen"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:00.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "6ba123c1-22e4-817c-f1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/karen"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:01.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "9bd456c1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/paul"
+    },
+    "result": "false",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:02.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "4ca123c1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/bob"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:03.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "1ba89bc1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/john"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:03.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "3ba123c1-55e4-417a-b1d8-4aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/bob"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:04.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "5cb123c1-12e3-218b-c1d8-5aceb67960d1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/john"
+    },
+    "result": "false",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:25.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "2ba123c1-12e3-218b-c1d8-5aceb67963a3",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/paul"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:26.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "3ef893b0-03a4-927c-b2c9-2becc67961a2",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/john"
+    },
+    "result": "true",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:35.000000Z"
+  },
+  {
+    "labels": {
+      "app": "my-example-app",
+      "id": "1780d507-aea2-45cc-ae50-fa153c8e4a5a",
+      "version": "latest"
+    },
+    "decision_id": "2ab243c1-12e3-119c-c1d8-5bfca12310a1",
+    "bundles": {
+      "authz": {
+        "revision": "W3sibCI6InN5cy9jYXRhbG9nIiwicyI6NDA3MX1d"
+      }
+    },
+    "path": "http/example/authz/allow",
+    "input": {
+      "method": "GET",
+      "path": "/salary/paul"
+    },
+    "result": "false",
+    "requested_by": "[::1]:59943",
+    "timestamp": "2020-01-01T09:01:43.000000Z"
+  }
+]
